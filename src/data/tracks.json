@@ -1,0 +1,47 @@
+[
+  {
+    "id": "5",
+    "name": "Universal",
+    "thumbnailImage": "https://wise-app-assets.pages.dev/t5.webp",
+    "slug": "universal",
+    "description": "Learn Universal jurisprudence and Islamic law",
+    "createdAt": "07/16/2024 20:01",
+    "updatedAt": "07/16/2024 20:06"
+  },
+  {
+    "id": "4",
+    "name": "Hanbali",
+    "thumbnailImage": "https://wise-app-assets.pages.dev/t4.webp",
+    "slug": "hanbali",
+    "description": "Learn Hanbali jurisprudence and Islamic law",
+    "createdAt": "07/16/2024 20:01",
+    "updatedAt": "07/16/2024 20:06"
+  },
+  {
+    "id": "2",
+    "name": "Hanafi",
+    "thumbnailImage": "https://wise-app-assets.pages.dev/t2.webp",
+    "slug": "hanafi",
+    "description": "Learn Hanafi jurisprudence and Islamic law",
+    "createdAt": "07/16/2024 20:01",
+    "updatedAt": "07/16/2024 20:06"
+  },
+  {
+    "id": "1",
+    "name": "Maliki",
+    "thumbnailImage": "https://wise-app-assets.pages.dev/t1.webp",
+    "slug": "maliki",
+    "description": "Learn Maliki jurisprudence and Islamic law",
+    "createdAt": "07/16/2024 20:01",
+    "updatedAt": "07/16/2024 20:05"
+  },
+  {
+    "id": "3",
+    "name": "Shafi'i",
+    "thumbnailImage": "https://wise-app-assets.pages.dev/t3.webp",
+    "slug": "shafi'i",
+    "description": "Learn Shafi'i jurisprudence and Islamic law",
+    "createdAt": "07/16/2024 20:01",
+    "updatedAt": "07/16/2024 20:05"
+  }
+]
