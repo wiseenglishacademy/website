@@ -14,8 +14,9 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  experimental: {
-    appDir: true,
+  // Optimized for Netlify static hosting
+  generateBuildId: async () => {
+    return 'build-' + Date.now();
   },
 };
 
