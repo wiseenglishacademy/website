@@ -1,0 +1,7 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#732121"/>
+  <circle cx="200" cy="200" r="80" fill="#15803d"/>
+  <text x="600" y="250" font-family="Arial, sans-serif" font-size="64" fill="white" text-anchor="middle" dominant-baseline="middle">WISE English Academy</text>
+  <text x="600" y="320" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle" dominant-baseline="middle">Premier Islamic Learning Platform</text>
+  <text x="600" y="380" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" dominant-baseline="middle">Master Islamic jurisprudence and Islamic sciences</text>
+</svg>

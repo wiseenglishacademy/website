@@ -91,7 +91,7 @@ export default function Navigation() {
             <SearchButton {...searchData} />
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-gray-700 hover:text-green-600 transition-colors duration-200"
+              className="text-gray-700 hover:text-primary-600 transition-colors duration-200"
             >
               {isMenuOpen ? (
                 <XMarkIcon className="w-6 h-6" />
@@ -108,21 +108,21 @@ export default function Navigation() {
             <div className="flex flex-col space-y-4">
               <Link
                 href="/"
-                className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-200"
+                className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
               <Link
                 href="/tracks"
-                className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-200"
+                className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Learning Tracks
               </Link>
               <Link
                 href="/courses"
-                className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-200"
+                className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200"
                 onClick={() => setIsMenuOpen(false)}
               >
                 All Courses

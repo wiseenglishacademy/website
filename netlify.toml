@@ -5,10 +5,7 @@
 [build.environment]
   NODE_VERSION = "18"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+# No redirects needed - Next.js static export handles routing
 
 [[headers]]
   for = "/*"

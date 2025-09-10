@@ -1,0 +1,7 @@
+<svg width="1200" height="1200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1200" fill="#732121"/>
+  <circle cx="600" cy="400" r="150" fill="#15803d"/>
+  <text x="600" y="600" font-family="Arial, sans-serif" font-size="72" fill="white" text-anchor="middle" dominant-baseline="middle">WISE</text>
+  <text x="600" y="680" font-family="Arial, sans-serif" font-size="48" fill="white" text-anchor="middle" dominant-baseline="middle">English Academy</text>
+  <text x="600" y="750" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle" dominant-baseline="middle">Islamic Learning Platform</text>
+</svg>
