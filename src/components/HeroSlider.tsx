@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
+import Link from 'next/link';
 import { HeroBanner } from '@/types';
 
 interface HeroSliderProps {
@@ -67,15 +68,18 @@ export default function HeroSlider({ banners }: HeroSliderProps) {
                 >
                   {banners[currentIndex].subtitle}
                 </motion.p>
-                <motion.a
-                  href={banners[currentIndex].ctaLink}
+                <motion.div
                   initial={{ opacity: 0, y: 30 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.6, duration: 0.6 }}
-                  className="inline-block bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-300"
                 >
-                  {banners[currentIndex].ctaText}
-                </motion.a>
+                  <Link
+                    href={banners[currentIndex].ctaLink}
+                    className="inline-block bg-primary-600 hover:bg-primary-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-300"
+                  >
+                    {banners[currentIndex].ctaText}
+                  </Link>
+                </motion.div>
               </div>
             </div>
           </div>

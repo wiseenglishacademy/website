@@ -5,7 +5,7 @@
 [build.environment]
   NODE_VERSION = "18"
 
-# No redirects needed - Next.js static export handles routing
+# Next.js static export handles routing natively
 
 [[headers]]
   for = "/*"
