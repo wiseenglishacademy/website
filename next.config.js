@@ -18,10 +18,8 @@ const nextConfig = {
   generateBuildId: async () => {
     return 'build-' + Date.now();
   },
-  // Enable static export with proper routing
-  experimental: {
-    missingSuspenseWithCSRBailout: false,
-  },
+  // Ensure proper hydration
+  reactStrictMode: true,
 };
 
 module.exports = nextConfig;
